@@ -1,5 +1,6 @@
 import {IoTime} from 'react-icons/io5'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const PrimarySection = () => {
 
@@ -9,26 +10,23 @@ const PrimarySection = () => {
 
 
     useEffect(() => {
-     
-        function DateOpen(){
+        DateOpen()
+        DateClose()
+    }, [])
+
+function DateOpen(){
         const setdate = new Date()
         const SetDate = setdate.toLocaleDateString()
         setDate(SetDate)
     }
-    DateOpen()
-    }, [])
 
-    useEffect(() => {
-     
-        function DateClose(){
+     function DateClose(){
         const setdate = new Date()
         const SetDate = setdate.getMonth()
         setdate.setMonth(SetDate + 2)
         const formatdate = setdate.toLocaleDateString()
         setDateClose(formatdate)
     }
-    DateClose()
-    }, [])
 
     return(
         <div>
@@ -49,7 +47,10 @@ const PrimarySection = () => {
                         
                             <p>Não perca a oportunidade da carreira dos teus sonhos, tanto como profissional de TI ou outro ramo tecnico!</p>
                         </div>
-                        <button className=' font-medium bg-blue-600 p-1 px-3 text-white m-auto block rounded cursor-pointer select-none mt-3 hover:bg-blue-700 transition'>Inscrever-se</button>
+                        
+                        <Link to="/Login">
+                            <button className='active:hover:bg-blue-700 font-medium bg-blue-600 p-1 px-3 text-white m-auto block rounded cursor-pointer select-none mt-3  md:hover:bg-blue-700 transition '>Inscrever-se</button>
+                        </Link>
                     </div>
                 </section>
         </div>

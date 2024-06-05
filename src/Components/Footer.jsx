@@ -21,7 +21,7 @@ const Footer = () => {
                     <h1 className='font-medium text-center'>Créditos de refrência</h1>
 
                     <div className='mb-4'>
-                        <p className='flex items-center'>Imagem do cabeçalho:  <SiPexels className='text-2xl text-green-600 ml-2 mr-1' /><a className='bg-green-400 rounded p-1 px-2' href="http://Pexels.com" target="_blank">Pexels</a></p>
+                        <p className='flex items-center'>Imagem do cabeçalho:  <SiPexels className='text-2xl text-green-600 ml-2 mr-1' /><a className='select-none bg-green-400 rounded p-1 px-2' href="http://Pexels.com" target="_blank">Pexels</a></p>
 
                         <h1 className='font-medium text-center'>Direitos Autorais</h1>
 
