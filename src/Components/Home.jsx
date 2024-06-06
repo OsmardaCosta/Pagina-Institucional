@@ -6,7 +6,7 @@ import cat from '../assets/cat.webp'
 import uan from '../assets/uan.jpg'
 import { FaBook } from 'react-icons/fa'
 import PrimarySection from './PrimarySection'
-const LandingPage = () => {
+const Home = () => {
 
     return (
         <div>
@@ -56,4 +56,4 @@ const LandingPage = () => {
     )
 }
 
-export default LandingPage
+export default Home

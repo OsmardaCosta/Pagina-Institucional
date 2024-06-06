@@ -1,14 +1,14 @@
-import Container from "./Components/LandingPage"
-import Login from "./Components/Login"
+import LandingPage from "./Components/Home"
+import Login from "./Components/Pages/Login"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 export default function App() {
   return (
     <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<Container/>}/>
-            <Route path="/Login" element={<Login/>}/>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/Login" element={<Login />} />
+      </Routes>
     </BrowserRouter>
   )
 }
