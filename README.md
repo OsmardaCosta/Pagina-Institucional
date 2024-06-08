@@ -19,3 +19,7 @@ Este projeto é feito apenas em uma landingpage básica baseada na abertura de i
 ``` npm install -D tailwindcss postcss autoprefixer ```
 
 ``` npx tailwindcss init -p ```
+
+## Deploy
+
+https://pagina-institucional-ten.vercel.app/
