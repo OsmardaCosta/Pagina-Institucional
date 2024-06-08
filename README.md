@@ -6,7 +6,7 @@ Este projeto é feito apenas em uma landingpage básica baseada na abertura de i
 
 
 
-## Ambiente 
+## Configuração ambiente 
 
 ``` npm create vite@latest my-project -- --template react ```
 
