@@ -6,6 +6,7 @@ Este projeto é feito apenas em uma landingpage básica baseada na abertura de i
 
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- [![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-CA4245?style=flat-square&logo=react-router&logoColor=white)](https://reactrouter.com/web/guides/quick-start)
 - [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## Configuração ambiente 
