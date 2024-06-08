@@ -8,3 +8,10 @@ Este projeto é feito apenas em uma landingpage básica baseada na abertura de i
 
 ## Ambiente 
 
+``` npm create vite@latest my-project -- --template react ```
+
+``` cd my-project ```
+
+``` npm install -D tailwindcss postcss autoprefixer ```
+
+``` npx tailwindcss init -p ```
