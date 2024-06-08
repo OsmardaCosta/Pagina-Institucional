@@ -11,7 +11,7 @@ const Header = () =>{
 
                     <div className="select-none text-2xl font- font-fontPoppins">ECMABOOK</div>
                     <nav>
-                        <a href="http://github/OsmardaCosta" target='_blank'>
+                        <a href="http://github.com/OsmardaCosta" target='_blank'>
                             <FaGithub className='text-3xl cursor-pointer text-zinc-300 hover:text-white transition' />
                         </a>
                     </nav>

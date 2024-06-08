@@ -12,7 +12,7 @@ const Footer = () => {
 
                         <p className='flex items-center text-sm'>Contacte o desenvolvedor: <FaInstagram className='text-2xl ml-2 mr-1' /> <a href="https://www.instagram.com/osmar_costa77/" target="_blank" className='select-none bg-gradient-to-tl from-purple-500 to-pink-500 p-1 px-2 rounded text-white'>Osmar Costa</a></p>
 
-                        <p className='flex items-center text-sm mt-3 mb-3'>Contacte o desenvolvedor: <FaGithub className='text-2xl ml-2 mr-1' /> <a href="http://github/OsmardaCosta" target="_blank" className='select-none bg-gray-800 p-1 px-2 rounded text-white'>Osmar Costa</a></p>
+                        <p className='flex items-center text-sm mt-3 mb-3'>Contacte o desenvolvedor: <FaGithub className='text-2xl ml-2 mr-1' /> <a href="http://github.com/OsmardaCosta" target="_blank" className='select-none bg-gray-800 p-1 px-2 rounded text-white'>Osmar Costa</a></p>
 
                         <p className='flex items-center text-sm mb-3'>Contacte o desenvolvedor: <FaLinkedin className='text-2xl ml-2 mr-1' /> <a href="https://www.linkedin.com/in/osmar-costa-3302b62a0/" target="_blank" className='select-none bg-blue-600 p-1 px-2 rounded text-white'>932-668-487</a></p>
                     </div>
